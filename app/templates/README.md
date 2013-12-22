@@ -2,18 +2,18 @@
 
 <%= props.description %>
 
-## Getting Started
-Install the module with: `npm install <%= slugname %>`
+## Install
+```
+npm install <%= slugname %>`
+```
 
+## Example
 ```javascript
 var <%= slugname %> = require('<%= slugname %>');
 <%= slugname %>.awesome(); // "awesome"
 ```
 
 ## Documentation
-_(Coming soon)_
-
-## Examples
 _(Coming soon)_
 
 ## Contributing
