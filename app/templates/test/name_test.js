@@ -28,8 +28,8 @@ var <%= slugname %> = require('../lib/<%= slugname %>.js');
 
 var assert = require('assert');
 
-suite('AwesomenessTest', function(){
-  test('#awesome()', function(done){
+describe('AwesomenessTest', function(){
+  it('#awesome()', function(done){
     assert.equal(<%= slugname %>.awesome(), 'awesome');
     done();
   });

@@ -4,8 +4,11 @@
 
 ## Install
 ```
-npm install <%= slugname %>`
+npm install <%= slugname %>
 ```
+
+## Config
+see [RC module](https://github.com/dominictarr/rc) for further details
 
 ## Example
 ```javascript
